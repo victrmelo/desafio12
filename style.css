@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(24, 48, 68) ;
+ }
+ .navbar {
+    position: fixed;
+    z-index: 1000px;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(45, 74, 99);
+    overflow: hidden;
+ }
+ .navbar a{
+    float: left;
+    display: block;
+    color: LightSteelBlue;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family:initial;
+ }
+ ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ .paragrafo{
+    color: LightSteelBlue;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ .titulos{
+    color: rgb(219, 232, 248);
+ }
+ .subtitulo{
+    color: rgb(117, 130, 146);
+ }
+ 
+ #home{
+    padding-top: 50px;
+ }
+ .navbar a:hover{
+    background-color: white;
+    color: black;
+ }
+ .card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ .cards{
+    background-color: SteelBlue;
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+ }
+ .imagem{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+ }
